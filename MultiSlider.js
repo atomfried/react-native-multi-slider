@@ -550,6 +550,7 @@ export default class MultiSlider extends React.Component {
         <View style={[styles.fullTrack, { width: sliderLength }]}>
           <View
             style={[
+              this.props.trackStyle,
               styles.track,
               trackOneStyle,
               this.props.trackStyle,
@@ -558,6 +559,7 @@ export default class MultiSlider extends React.Component {
           />
           <View
             style={[
+              this.props.trackStyle,
               styles.track,
               this.props.trackStyle,
               trackTwoStyle,
