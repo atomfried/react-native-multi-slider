@@ -545,6 +545,8 @@ export default class MultiSlider extends React.Component {
       });
     }
 
+    console.log('track one', trackOneStyle);
+    console.log('props', this.props.trackStyle);
     const body = (
       <React.Fragment>
         <View style={[styles.fullTrack, { width: sliderLength }]}>
