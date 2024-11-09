@@ -551,12 +551,16 @@ export default class MultiSlider extends React.Component {
           <View
             style={[
               this.props.trackStyle,
+              styles.track,
+              trackOneStyle,
               { width: trackOneLength },
             ]}
           />
           <View
             style={[
               this.props.trackStyle,
+              styles.track,
+              trackTwoStyle,
               { width: trackTwoLength },
             ]}
             {...(twoMarkers ? this._panResponderBetween.panHandlers : {})}
