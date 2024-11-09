@@ -720,7 +720,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#095FFF',
       },
       android: {
-        backgroundColor: 'red',
+        backgroundColor: '#0D8675',
       },
       web: {
         backgroundColor: '#095FFF',
